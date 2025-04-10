@@ -11,8 +11,10 @@
     <link href="src/output.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
+
 <body class="text-white">
-    <div class="absolute top-0 w-full h-[565px] lg:h-[98vh]" style="background-image: url(assets/images/netflix_bg.jpg);">
+    <div class="absolute top-0 w-full h-[565px] lg:h-[98vh]"
+        style="background-image: url(assets/images/netflix_bg.jpg);">
         <nav
             class="flex flex-wrap text-xl h-[80px] lg:ml-32 px-[12px] items-center justify-between lg:mt-2 lg:w-[85vw] relative z-999">
             <img src="assets/images/logo.svg" class="w-[6rem] sm:h-[7rem] lg:w-[148px] lg:h-[40px]" alt="">
@@ -117,36 +119,48 @@
     <section class="bg-gray-900">
         <h2 class="lg:text-3xl text-xl ml-6 font-semibold lg:px-30 lg:py-10">Frequently Asked Questions</h2>
         <div class="flex-wrap flex mx-4 lg:ml-32 lg:-mt-4 lg:w-[85%]">
-            <button onclick="rotateElement()"
-                class="flex rounded mt-2 cursor-pointer items-center bg-[#2d2d2d] hover:bg-[#3b3b3b] p-5 justify-between w-full">
-                <p class="lg:text-3xl text-lg font-semibold">What is Netflix?</p>
-                <span id="rotate" class="lg:text-3xl text-lg"><i class="fa-solid fa-plus"></i></span>
-            </button>
-            <button
-                class="flex rounded mt-2 cursor-pointer items-center bg-[#2d2d2d] hover:bg-[#3b3b3b] p-5 justify-between w-full">
-                <p class="lg:text-3xl text-lg font-semibold">How much does Netflix cost?</p>
-                <span class="lg:text-3xl text-lg"><i class="fa-solid fa-plus"></i></span>
-            </button>
-            <button
-                class="flex rounded mt-2 cursor-pointer items-center bg-[#2d2d2d] hover:bg-[#3b3b3b] p-5 justify-between w-full">
-                <p class="lg:text-3xl text-lg font-semibold">Where can I watch?</p>
-                <span class="lg:text-3xl text-lg"><i class="fa-solid fa-plus"></i></span>
-            </button>
-            <button
-                class="flex rounded mt-2 cursor-pointer items-center bg-[#2d2d2d] hover:bg-[#3b3b3b] p-5 justify-between w-full">
-                <p class="lg:text-3xl text-lg font-semibold">How do I cancel?</p>
-                <span class="lg:text-3xl text-lg"><i class="fa-solid fa-plus"></i></span>
-            </button>
-            <button
-                class="flex rounded mt-2 cursor-pointer items-center bg-[#2d2d2d] hover:bg-[#3b3b3b] p-5 justify-between w-full">
-                <p class="lg:text-3xl text-lg font-semibold">What can I watch on Netflix?</p>
-                <span class="lg:text-3xl text-lg"><i class="fa-solid fa-plus"></i></span>
-            </button>
-            <button
-                class="flex rounded mt-2 cursor-pointer items-center bg-[#2d2d2d] hover:bg-[#3b3b3b] p-5 justify-between w-full">
-                <p class="lg:text-3xl text-lg font-semibold">Is Netflix good for kids??</p>
-                <span class="lg:text-3xl text-lg"><i class="fa-solid fa-plus"></i></span>
-            </button>
+            <div class="w-full">
+                <button
+                    class="flex rounded mt-2 cursor-pointer items-center bg-[#2d2d2d] hover:bg-[#3b3b3b] p-5 justify-between w-full">
+                    <p class="lg:text-3xl text-lg font-semibold">What is Netflix?</p>
+                </button>
+                <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt accusamus, obcaecati quaerat doloribus vel nesciunt, pariatur, molestias laboriosam odit quam iste ullam repellendus!</span>
+            </div>
+            <div class="w-full">
+                <button
+                    class="flex rounded mt-2 cursor-pointer items-center bg-[#2d2d2d] hover:bg-[#3b3b3b] p-5 justify-between w-full">
+                    <p class="lg:text-3xl text-lg font-semibold">How much does Netflix cost?</p>
+                    <span class="lg:text-3xl text-lg"><i class="fa-solid fa-plus"></i></span>
+                </button>
+            </div>
+            <div class="w-full">
+                <button
+                    class="flex rounded mt-2 cursor-pointer items-center bg-[#2d2d2d] hover:bg-[#3b3b3b] p-5 justify-between w-full">
+                    <p class="lg:text-3xl text-lg font-semibold">Where can I watch?</p>
+                    <span class="lg:text-3xl text-lg"><i class="fa-solid fa-plus"></i></span>
+                </button>
+            </div>
+            <div class="w-full">
+                <button
+                    class="flex rounded mt-2 cursor-pointer items-center bg-[#2d2d2d] hover:bg-[#3b3b3b] p-5 justify-between w-full">
+                    <p class="lg:text-3xl text-lg font-semibold">How do I cancel?</p>
+                    <span class="lg:text-3xl text-lg"><i class="fa-solid fa-plus"></i></span>
+                </button>
+            </div>
+            <div class="w-full">
+                <button
+                    class="flex rounded mt-2 cursor-pointer items-center bg-[#2d2d2d] hover:bg-[#3b3b3b] p-5 justify-between w-full">
+                    <p class="lg:text-3xl text-lg font-semibold">What can I watch on Netflix?</p>
+                    <span class="lg:text-3xl text-lg"><i class="fa-solid fa-plus"></i></span>
+                </button>
+            </div>
+            <div class="w-full">
+                <button
+                    class="flex rounded mt-2 cursor-pointer items-center bg-[#2d2d2d] hover:bg-[#3b3b3b] p-5 justify-between w-full">
+                    <p class="lg:text-3xl text-lg font-semibold">Is Netflix good for kids??</p>
+                    <span class="lg:text-3xl text-lg"><i class="fa-solid fa-plus"></i></span>
+                </button>
+            </div>
             <div class="flex flex-wrap mt-4 w-[98%]">
                 <p class="lg:ml-88 mt-4 mb-4 lg:mt-10 font-semibold lg:text-lg">Ready to watch? Enter your email to
                     create or restart your membership.</p>
